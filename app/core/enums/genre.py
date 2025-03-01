@@ -1,0 +1,22 @@
+from enum import Enum
+
+class Genre(Enum):
+    FICTION = "Fiction"
+    NON_FICTION = "NonFiction"
+    MYSTERY = "Mystery"
+    FANTASY = "Fantasy"
+    SCIENCE_FICTION = "ScienceFiction"
+    BIOGRAPHY = "Biography"
+    HISTORY = "History"
+    ROMANCE = "Romance"
+    HORROR = "Horror"
+    PHILOSOPHICAL_FICTION = "PhilosophicalFiction"
+    PHILOSOPHY = "Philosophy"
+    PSYCHOLOGICAL_FICTION = "PsychologicalFiction"
+    EXISTENTIAL_FICTION = "ExistentialFiction"
+    SURREALISM = "Surrealism"
+    ABSURDIST_FICTION = "AbsurdistFiction"
+    MODERNIST_FICTION = "ModernistFiction"
+    TRAGEDY = "Tragedy"
+    ROMANTICISM = "Romanticism"
+    BILDUNGSROMAN = "Bildungsroman"
